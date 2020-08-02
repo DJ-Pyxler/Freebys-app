@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Login() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +13,6 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.card}>
           <h2>About</h2>
-          <Link href="/api/hello">Hello</Link>
         </div>
       </main>
 
